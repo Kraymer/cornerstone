@@ -2,7 +2,7 @@ name: codecov
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 jobs:
   codecov:
     name: Codecov Workflow
@@ -22,6 +22,5 @@ jobs:
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
           flags: unittests
