@@ -9,8 +9,16 @@ import re
 from setuptools import setup
 
 
-DIRPATH = os.path.dirname(__file__)
+DIRPATH = os.path.dirname(os.path.realpath(__file__))
 PKG_NAME = os.path.basename(DIRPATH)
+
+# Extract module docstring and version from package root __init__.py
+with codecs.open("{}/__init__.py".format(PKG_NAME), encoding="utf-8") as fd:
+    metadata = fd.read()
+    VERSION = re.search(
+        r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', metadata, re.MULTILINE
+    ).group(1)
+    DESCRIPTION = metadata.split('"""')[1].strip()
 
 
 def read_rsrc(filename, pypi_compat=False):
@@ -27,19 +35,11 @@ def read_rsrc(filename, pypi_compat=False):
     return data
 
 
-def read_version():
-    """Return current package version"""
-    with codecs.open("{}/__init__.py".format(PKG_NAME), encoding="utf-8") as fd:
-        version = re.search(
-            r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE
-        ).group(1)
-
-
 # Deploy: python3 setup.py sdist bdist_wheel; twine upload --verbose dist/*
 setup(
     name=PKG_NAME,
-    version=read_version(),
-    description=""
+    version=VERSION,
+    description="",
     long_description=read_rsrc("README.rst"),
     author="Fabrice Laporte",
     author_email="kraymer@gmail.com",
