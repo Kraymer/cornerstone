@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.8 (2022-06-02)
+### Fix
+* **setup:** Typo ([`8bdbf5b`](https://github.com/Kraymer/cornerstone/commit/8bdbf5bcf50030b4c9530da78b65c4cf31280d22))
+
 ## v0.1.7 (2022-06-02)
 ### Fix
 * **setup:** Try using relative path ([`31b7b8c`](https://github.com/Kraymer/cornerstone/commit/31b7b8c909739afe26190d569d2a142bdc423be9))
