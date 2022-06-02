@@ -25,4 +25,5 @@ Features
 --------
 
 - README.rst processing to make it compatible with pypi strict formatting rules
-
+- CI/CD coverage report
+- CI/CD unit tests report
