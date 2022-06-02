@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2022-06-02)
+### Fix
+* **setup:** PKG_NAME ([`2afced8`](https://github.com/Kraymer/cornerstone/commit/2afced8b846074c70a6e1f4a3015d6831456b4ea))
+
 ## v0.1.1 (2022-06-02)
 ### Fix
 * **gh action:** Indicate main ref ([`dd952a0`](https://github.com/Kraymer/cornerstone/commit/dd952a0c7457a57849167fbab5e150762269a65d))
