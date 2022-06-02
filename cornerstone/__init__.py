@@ -2,4 +2,4 @@
 Basic github repository setup for python projects.
 """
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"

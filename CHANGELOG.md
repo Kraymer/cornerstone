@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.5 (2022-06-02)
+### Fix
+* **setup:** Simpler version of python-package.yml ([`d91d686`](https://github.com/Kraymer/cornerstone/commit/d91d686e73c551164a8a7c501f76edfef20c2001))
+
 ## v0.1.4 (2022-06-02)
 ### Fix
 * **setup:** Rename pypi-publish.yml ([`9c0215d`](https://github.com/Kraymer/cornerstone/commit/9c0215dcf1e99045ac2964c8871e1ba796741929))
