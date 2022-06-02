@@ -9,8 +9,7 @@ import re
 from setuptools import setup
 
 
-DIRPATH = os.path.dirname(os.path.realpath(__file__))
-PKG_NAME = os.path.basename(DIRPATH)
+PKG_NAME = "cornerstone"
 
 # Extract module docstring and version from package root __init__.py
 with codecs.open("{}/__init__.py".format(PKG_NAME), encoding="utf-8") as fd:
