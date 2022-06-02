@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.3 (2022-06-02)
+### Fix
+* **setup:** Restaure DIRPATH ([`42e30fd`](https://github.com/Kraymer/cornerstone/commit/42e30fd588822885499c7e9edbf69d14d5f7981b))
+
 ## v0.1.2 (2022-06-02)
 ### Fix
 * **setup:** PKG_NAME ([`2afced8`](https://github.com/Kraymer/cornerstone/commit/2afced8b846074c70a6e1f4a3015d6831456b4ea))
