@@ -26,6 +26,7 @@ def read_rsrc(filename, pypi_compat=False):
     anything preceding the comment so that the .rst can be properly displayed
     on pypi.
     """
+    DIRPATH = os.path.dirname(os.path.realpath(__file__))
     with codecs.open(os.path.join(DIRPATH, filename), encoding="utf-8") as _file:
         data = _file.read().strip()
         if pypi_compat or filename == "README.rst":
