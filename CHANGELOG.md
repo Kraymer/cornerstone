@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2022-06-02)
+### Fix
+* **gh action:** Indicate main ref ([`dd952a0`](https://github.com/Kraymer/cornerstone/commit/dd952a0c7457a57849167fbab5e150762269a65d))
+
 ## v0.1.0 (2022-06-02)
 ### Feature
 * Use semantic release for python-publish.yml ([`1fca4a5`](https://github.com/Kraymer/cornerstone/commit/1fca4a53c19955ad009a0116a8802c4e524870fd))
