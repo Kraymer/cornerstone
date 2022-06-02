@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.6 (2022-06-02)
+### Fix
+* **setup:** Upload on pypi on release creation ([`e0ebb0d`](https://github.com/Kraymer/cornerstone/commit/e0ebb0d70232722c65f6be142466d304c03559f6))
+
 ## v0.1.5 (2022-06-02)
 ### Fix
 * **setup:** Simpler version of python-package.yml ([`d91d686`](https://github.com/Kraymer/cornerstone/commit/d91d686e73c551164a8a7c501f76edfef20c2001))
