@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.7 (2022-06-02)
+### Fix
+* **setup:** Try using relative path ([`31b7b8c`](https://github.com/Kraymer/cornerstone/commit/31b7b8c909739afe26190d569d2a142bdc423be9))
+
 ## v0.1.6 (2022-06-02)
 ### Fix
 * **setup:** Upload on pypi on release creation ([`e0ebb0d`](https://github.com/Kraymer/cornerstone/commit/e0ebb0d70232722c65f6be142466d304c03559f6))
