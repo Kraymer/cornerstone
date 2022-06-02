@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.4 (2022-06-02)
+### Fix
+* **setup:** Rename pypi-publish.yml ([`9c0215d`](https://github.com/Kraymer/cornerstone/commit/9c0215dcf1e99045ac2964c8871e1ba796741929))
+
 ## v0.1.3 (2022-06-02)
 ### Fix
 * **setup:** Restaure DIRPATH ([`42e30fd`](https://github.com/Kraymer/cornerstone/commit/42e30fd588822885499c7e9edbf69d14d5f7981b))
