@@ -2,6 +2,15 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.0 (2022-06-03)
+### Feature
+* Add python-quality.yml ([`f052535`](https://github.com/Kraymer/cornerstone/commit/f0525355244113dec7fb9525c263cc97843dd5f5))
+
+### Fix
+* Invalid value workflow reference ([`86306d6`](https://github.com/Kraymer/cornerstone/commit/86306d6854c4d8a7e72d63f3c795b9c27b1be736))
+* **setup:** Invalid value workflow reference ([`abf105d`](https://github.com/Kraymer/cornerstone/commit/abf105d6880bb12ebaf2abe465d478cfe87b96e1))
+* **setup:** Semantic release .yml ([`2eedf93`](https://github.com/Kraymer/cornerstone/commit/2eedf93b15e00426cf93f6350cc74f822257de65))
+
 ## v0.2.0 (2022-06-03)
 ### Feature
 * **setup:** Add LICENSE and MANIFEST.in ([`71ddf8a`](https://github.com/Kraymer/cornerstone/commit/71ddf8aa4d52bcd5a06b630d68860ff4ef272573))
