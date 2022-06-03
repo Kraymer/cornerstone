@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Upload Python Package when release created manually
+name: Publish last release
 
 on:
   release:
