@@ -3,14 +3,19 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Semantic Release
+name: Semantic release and publish on pypi
 
+on: 
+  workflow_dispatch
+    
 on:
   push:
     branches:
       - main
 
 jobs:
+  quality:
+    uses: Kraymer/cornerstone/github/workflows/python-package@main
   release:
     runs-on: ubuntu-latest
     concurrency: release
