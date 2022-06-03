@@ -5,8 +5,7 @@
 
 name: Semantic release and publish on pypi
 
-on: 
-  workflow_dispatch
+on: workflow_dispatch
     
 on:
   push:
