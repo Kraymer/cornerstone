@@ -4,13 +4,15 @@
 
 .. image:: http://img.shields.io/pypi/v/cornerstone.svg
    :target: https://pypi.python.org/pypi/cornerstone
-.. image:: https://codecov.io/gh/Kraymer/cornerstone/branch/master/graph/badge.svg?token=NWHZ0T10O2
+.. image:: https://codecov.io/gh/Kraymer/cornerstone/branch/main/graph/badge.svg?token=EPMJ5EZGIK
    :target: https://codecov.io/gh/Kraymer/cornerstone
 .. image:: https://pepy.tech/badge/cornerstone  
    :target: https://pepy.tech/project/cornerstone
 .. image:: https://img.shields.io/badge/releases-atom-orange.svg
    :target: https://github.com/Kraymer/cornerstone/releases.atom
-   
+
+      
+    
 .. pypi
 
 cornerstone
