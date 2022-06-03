@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2022-06-03)
+### Feature
+* **setup:** Add LICENSE and MANIFEST.in ([`71ddf8a`](https://github.com/Kraymer/cornerstone/commit/71ddf8aa4d52bcd5a06b630d68860ff4ef272573))
+
 ## v0.1.8 (2022-06-02)
 ### Fix
 * **setup:** Typo ([`8bdbf5b`](https://github.com/Kraymer/cornerstone/commit/8bdbf5bcf50030b4c9530da78b65c4cf31280d22))
