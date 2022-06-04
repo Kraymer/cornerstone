@@ -1,7 +1,8 @@
 .. image:: https://github.com/Kraymer/__pub/raw/master/logo_cornerstone.png
    :width: 200
-   :align: center
 
+.. image:: http://github.com/kraymer/cornerstone/workflows/build/badge.svg
+   :target: https://github.com/Kraymer/cornerstone/actions/workflows/python-build.yml
 .. image:: http://img.shields.io/pypi/v/cornerstone.svg
    :target: https://pypi.python.org/pypi/cornerstone
 .. image:: https://codecov.io/gh/Kraymer/cornerstone/branch/main/graph/badge.svg?token=EPMJ5EZGIK
