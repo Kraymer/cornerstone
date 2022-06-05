@@ -29,6 +29,9 @@ cornerstone
 Features
 --------
 
-- README.rst processing to make it compatible with pypi strict formatting rules
-- CI/CD coverage report
-- CI/CD unit tests report
+- `README.rst` processing to make it compatible with pypi strict formatting rules
+- setup.py fetches package infos dynamically
+- CI/CD automation using Github action :
+   - `codecov.yml` upload coverage to Codecov
+   - `python-build` lint and run unit tests
+   - `python-semantic-release.yml` automatic changelog generation and versioning via Python Semantic Release and one click deployment to Pypi
