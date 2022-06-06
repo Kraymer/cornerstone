@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.1 (2022-06-06)
+### Fix
+* Semantic workflow ([`eb1af2c`](https://github.com/Kraymer/cornerstone/commit/eb1af2cd71b3ad1233669b1d4bc3fe1c2d9f1e09))
+* Rename python-quality.xml workflow ([`e2b5509`](https://github.com/Kraymer/cornerstone/commit/e2b55091a5762d97bc1cbfeecc5571dd624d2fe6))
+* **setup:** Build badge ([`a64466f`](https://github.com/Kraymer/cornerstone/commit/a64466f447a4567e82949b12c6a548c5c8fab903))
+
 ## v0.3.0 (2022-06-03)
 ### Feature
 * Add python-quality.yml ([`f052535`](https://github.com/Kraymer/cornerstone/commit/f0525355244113dec7fb9525c263cc97843dd5f5))
