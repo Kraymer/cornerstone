@@ -34,12 +34,12 @@ def read_rsrc(filename, pypi_compat=False):
     return data
 
 
-# Deploy: python3 setup.py sdist bdist_wheel; twine upload --verbose dist/*
 setup(
     name=PKG_NAME,
     version=VERSION,
     description="",
-    long_description=read_rsrc("README.rst"),
+    long_description=read_rsrc("README.md"),
+    long_description_content_type="text/markdown",
     author="Fabrice Laporte",
     author_email="kraymer@gmail.com",
     url=f"https://github.com/KraYmer/{PKG_NAME}",
