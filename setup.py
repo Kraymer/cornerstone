@@ -22,23 +22,20 @@ with codecs.open("{}/__init__.py".format(PKG_NAME), encoding="utf-8") as fd:
 
 def read_rsrc(filename, pypi_compat=False):
     """Return content of given text file.
-    If `.. pypi` comment if present then remove emojis in whole text and
-    anything preceding the comment so that the .rst can be properly displayed
-    on pypi.
+    If pypi_compat is True then remove lines that contain the string "nopypi"
     """
     with codecs.open(filename, encoding="utf-8") as _file:
-        data = _file.read().strip()
-        if pypi_compat or filename == "README.md":
-            if ".. pypi" in data:
-                data = re.sub(r":(\w+\\?)+:", "", data[data.find(".. pypi") :] or data)
-    return data
+        lines = _file.readlines()
+        if pypi_compat:
+            lines = [x for x in lines if "nopypi" not in x]
+        return "".join(lines).strip()
 
 
 setup(
     name=PKG_NAME,
     version=VERSION,
     description="",
-    long_description=read_rsrc("README.md"),
+    long_description=read_rsrc("README.md", True),
     long_description_content_type="text/markdown",
     author="Fabrice Laporte",
     author_email="kraymer@gmail.com",
