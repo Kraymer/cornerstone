@@ -28,7 +28,7 @@ def read_rsrc(filename, pypi_compat=False):
     """
     with codecs.open(filename, encoding="utf-8") as _file:
         data = _file.read().strip()
-        if pypi_compat or filename == "README.rst":
+        if pypi_compat or filename == "README.md":
             if ".. pypi" in data:
                 data = re.sub(r":(\w+\\?)+:", "", data[data.find(".. pypi") :] or data)
     return data
