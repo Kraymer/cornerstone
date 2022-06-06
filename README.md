@@ -16,12 +16,12 @@
 >    
 >    *n.* an indispensable and fundamental basis
 
-``cornerstone`` is a basic repository setup to start your python project.
+``cornerstone`` is a state-of-the-art repository setup to start a python project hosted on Github.
 
 ## Features
 
-- `README.rst` processing to make it compatible with pypi strict formatting rules
-- `setup.py` fetches package infos dynamically
+- Markdown `README.md` file used for both pypi and github project homepages
+- Markdown documentation hosted by readthedocs
 - CI/CD automation using Github action :
    - `codecov.yml` upload coverage to Codecov
    - `python-build` lint and run unit tests
