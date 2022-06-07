@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.0 (2022-06-07)
+### Feature
+* Introduce nopypi filtering for pypi description ([`6ba731d`](https://github.com/Kraymer/cornerstone/commit/6ba731dc6c1f0fe27aa967970f6b95f53de3e722))
+
 ## v0.3.1 (2022-06-06)
 ### Fix
 * Semantic workflow ([`eb1af2c`](https://github.com/Kraymer/cornerstone/commit/eb1af2cd71b3ad1233669b1d4bc3fe1c2d9f1e09))
