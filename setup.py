@@ -27,7 +27,7 @@ def read_rsrc(filename, pypi_compat=False):
     with codecs.open(filename, encoding="utf-8") as _file:
         lines = _file.readlines()
         if pypi_compat:
-            lines = [x for x in lines if "nopypi" not in x]
+            lines = [x for x in lines if "[nopypi]" not in x]
         return "".join(lines).strip()
 
 

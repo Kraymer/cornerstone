@@ -1,11 +1,11 @@
 <p align="center">
    <img align="center" src="https://github.com/Kraymer/__pub/raw/master/logo_cornerstone.png" width="200" >
 
-[![](http://github.com/kraymer/cornerstone/workflows/build/badge.svg)](https://github.com/Kraymer/cornerstone/actions/workflows/python-build.yml)
-[![](http://img.shields.io/pypi/v/cornerstone.svg)](https://pypi.python.org/pypi/cornerstone)
-[![](https://codecov.io/gh/Kraymer/cornerstone/branch/main/graph/badge.svg?token=EPMJ5EZGIK)](https://codecov.io/gh/Kraymer/cornerstone)
+[![nopypi](http://github.com/kraymer/cornerstone/workflows/build/badge.svg)](https://github.com/Kraymer/cornerstone/actions/workflows/python-build.yml)
+[![nopypi](http://img.shields.io/pypi/v/cornerstone.svg)](https://pypi.python.org/pypi/cornerstone)
+[![nopypi](https://codecov.io/gh/Kraymer/cornerstone/branch/main/graph/badge.svg?token=EPMJ5EZGIK)](https://codecov.io/gh/Kraymer/cornerstone)
 [![](https://pepy.tech/badge/cornerstone)](https://pepy.tech/project/cornerstone)
-[![](https://img.shields.io/badge/releases-atom-orange.svg)](https://github.com/Kraymer/cornerstone/releases.atom)
+[![nopypi](https://img.shields.io/badge/releases-atom-orange.svg)](https://github.com/Kraymer/cornerstone/releases.atom)
 [![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Kraymer/cornerstone/blob/master/LICENSE)
 </p>
 
