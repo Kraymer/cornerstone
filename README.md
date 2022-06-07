@@ -2,11 +2,12 @@
    <img align="center" src="https://github.com/Kraymer/__pub/raw/master/logo_cornerstone.png" width="200" >
 
 [![nopypi](http://github.com/kraymer/cornerstone/workflows/build/badge.svg)](https://github.com/Kraymer/cornerstone/actions/workflows/python-build.yml)
-[![nopypi](http://img.shields.io/pypi/v/cornerstone.svg)](https://pypi.python.org/pypi/cornerstone)
+[![](https://readthedocs.org/projects/cornerstone/badge/?version=latest)](http://cornerstone.readthedocs.org/en/latest/?badge=latest)
 [![nopypi](https://codecov.io/gh/Kraymer/cornerstone/branch/main/graph/badge.svg?token=EPMJ5EZGIK)](https://codecov.io/gh/Kraymer/cornerstone)
+[![nopypi](http://img.shields.io/pypi/v/cornerstone.svg)](https://pypi.python.org/pypi/cornerstone)
 [![](https://pepy.tech/badge/cornerstone)](https://pepy.tech/project/cornerstone)
 [![nopypi](https://img.shields.io/badge/releases-atom-orange.svg)](https://github.com/Kraymer/cornerstone/releases.atom)
-[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Kraymer/cornerstone/blob/master/LICENSE)
+
 </p>
 
 
