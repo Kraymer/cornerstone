@@ -9,9 +9,11 @@ on: [push, workflow_call]
 jobs:
   build:
 
-    runs-on: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.platform }}
+    
     strategy:
       matrix:
+        platform: [ubuntu-latest, windows-latest]
         python-version: ["3.7", "3.10"]
 
     steps:
