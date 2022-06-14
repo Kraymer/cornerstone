@@ -37,9 +37,9 @@ Import your project to your readthedocs account and set `docs` as default branch
 
 ### Github CI/CD workflows
 
-- `codecov.yml`: import your project to your app.codecov.io/ account
-- `python-buid.yml`: edit python versions and targeted platforms
-- `python-semantic-release.yml`: add a PYPI_TOKEN secret token to your repository settings as described on [packaging.python.org](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/#saving-credentials-on-github). Configure behaviour by editing [`setup.cfg`](https://raw.githubusercontent.com/Kraymer/cornerstone/main/setup.cfg).
+- [`codecov.yml`](https://raw.githubusercontent.com/Kraymer/cornerstone/main/.github/workflows/codecov.yml): import your project to your app.codecov.io/ account
+- [`python-buid.yml`](https://raw.githubusercontent.com/Kraymer/cornerstone/main/.github/workflows/python-build.yml): edit python versions and targeted platforms
+- [`python-semantic-release.yml`](https://github.com/Kraymer/cornerstone/blob/main/.github/workflows/python-semantic-release.yml): add a PYPI_TOKEN secret token to your repository settings as described on [packaging.python.org](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/#saving-credentials-on-github). Configure behaviour by editing [`setup.cfg`](https://raw.githubusercontent.com/Kraymer/cornerstone/main/setup.cfg).
 
 
 
