@@ -34,7 +34,7 @@ def read_rsrc(filename, pypi_compat=False):
 setup(
     name=PKG_NAME,
     version=VERSION,
-    description="",
+    description=DESCRIPTION,
     long_description=read_rsrc("README.md", True),
     long_description_content_type="text/markdown",
     author="Fabrice Laporte",
