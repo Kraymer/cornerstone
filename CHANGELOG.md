@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.1 (2022-06-18)
+### Fix
+* Pypi-manual-publish.yml ([`39ed731`](https://github.com/Kraymer/cornerstone/commit/39ed7312cf51b08779bb1bb79a3f9be1e604f7b9))
+
 ## v0.4.0 (2022-06-07)
 ### Feature
 * Introduce nopypi filtering for pypi description ([`6ba731d`](https://github.com/Kraymer/cornerstone/commit/6ba731dc6c1f0fe27aa967970f6b95f53de3e722))
