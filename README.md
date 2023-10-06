@@ -30,8 +30,9 @@
 
 ## Getting started
 
+Create a new repository using <kbd><br>**Use this template**<br><br></kbd> button then perform following edits locally :
+
 ~~~
-git clone git@github.com:Kraymer/cornerstone.git YOUR_PROJECT
 sed -i 's/cornerstone/YOUR_PROJECT/g' **/*setup*
 ~~~
 
