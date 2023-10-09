@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@master
         with:
@@ -21,7 +21,7 @@ jobs:
           pip install -r requirements.txt
           python -m pytest --cov=./ --cov-report=xml
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
+        uses: codecov/codecov-action@v3
         with:
           file: ./coverage.xml
           flags: unittests
