@@ -33,6 +33,7 @@
 Create a new repository using <kbd><br>**Use this template**<br><br></kbd> button then perform following edits locally :
 
 ~~~
+mv cornerstone YOUR_PROJECT
 sed -i 's/cornerstone/YOUR_PROJECT/g' **/*setup*
 ~~~
 
